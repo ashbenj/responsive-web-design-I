@@ -198,3 +198,34 @@ footer {
   font-size: 14px;
 }
 
+/*Phone*/
+
+@media( max-width: 500px){
+    .container {
+        margin: 20px auto;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    header nav a{
+        margin:  0 auto;
+        font-size: 18px;
+        color: gray;
+        text-decoration: none;
+    }
+} 
+
+
+ 
+
